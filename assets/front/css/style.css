@@ -1,0 +1,129 @@
+/*
+Admin css
+*/
+
+
+.wplm_button_container {
+    width: 100px;
+    top: 100px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.wplm_button_container img {
+	width:100%;
+}
+.wplm_button_container .wplm_button {
+
+}
+
+
+
+
+
+
+/* wplm_tooltip Start */
+.wplm_tooltip {
+	position: absolute;
+    display: inline-block;
+}
+
+.wplm_tooltip .wplm_tooltip_text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.wplm_tooltip .wplm_tooltip_text:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.wplm_tooltip:hover .wplm_tooltip_text {
+    visibility: visible;
+    opacity: 1;
+}
+/* wplm_tooltip End */
+
+
+
+
+.wplm_box_container {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	display: none;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 999999;
+	-webkit-user-select:none;
+}
+.wplm_box_container .wplm_box {
+    background: none repeat #fff;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px 3px 3px 3px;
+    position: relative;
+    text-align: center;
+    top: 12%;
+    width: 340px;
+    border-radius: 3px;
+    box-shadow: 0 0 16px 10px rgba(100, 100, 100, 0.9);
+}
+.wplm_box_container .wplm_box .wplm_box_header_icon.wplm_box_close{
+	right: 3px;
+	cursor: pointer;
+	background:#b14036;
+}
+.wplm_box_container .wplm_box .wplm_box_header_icon.wplm_box_move{
+	right: 90px;
+	cursor: move;
+	background: #1CA361;
+}
+
+.wplm_box_container .wplm_box .wplm_box_header_icon{
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 2px;
+	width:50px;
+	padding: 2px 0;
+    border-radius: 3px;
+	
+	-webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.wplm_box_container .wplm_box .wplm_box_header_icon:hover{
+	width:80px;
+}
+
+.wplm_box_container .wplm_box .fa-exclamation-triangle{
+    font-size: 50px;
+    color: #86860F;
+}
+
+/* .wplm_box_container .wplm_box .alert_box_message{ */
+    /* padding: 15px; */
+    /* font-size: 20px; */
+    /* color: red; */
+/* } */

@@ -1,0 +1,90 @@
+/*
+Admin css
+*/
+
+
+@import 'poll-meta-box.css';
+
+
+#wplm_chart_report_after {
+    padding: 10px 10px;
+    margin: 15px 0;
+    background: #2EA3F2;
+    color: #fff;
+}
+
+#wplm_chart_report_after  a{
+    color: #fff !important;
+}
+
+#wplm_chart_report_after  .fa{
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#wp_shortcode_notice {
+	color:red;
+}
+
+.poll_view_link { float:right; text-decoration:none; }
+
+.button.button-orange{
+	background: #e77f11;
+    color: #fff;
+	transition: all ease-out 0.15s;
+	border-color: #e77f11;
+    box-shadow: 0 1px 0 #e77f11;
+}
+
+.button.button-orange:hover,.button.button-orange:active,.button.button-orange:focus{
+	background: #D54E21;
+	color: #fff;
+    border-color: #D54E21;
+    box-shadow: 0 1px 0 #D54E21;
+}
+
+
+
+.wplm_td {
+	display:inline-block;
+	margin-right:25px;
+	vertical-align:top;
+}
+.wplm_td .wplm_td_single {
+    background: #dedede;
+    padding: 10px 20px;
+    width: 320px;
+	user-select:none;
+}
+.wplm_td .wplm_td_label{
+	font-size:14px;
+	font-weight:500;
+}
+.wplm_td .wplm_td_single input[type=checkbox] {
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+	width: 20px;
+    height: 20px;
+}
+.wplm_td .wplm_td_single input[type=checkbox]:before {
+    font-size:24px !important;
+}
+.wplm_td .wplm_td_icon {
+    color: #DE746C;
+    float: right;
+    font-size: 22px;
+    padding: 8px 15px;
+    margin-top: -10px;
+    margin-left: 8px;
+    cursor: move;
+}
+.wplm_td .wplm_td_icon:hover {
+    background: #eee;
+}
+.wplm_td .wplm_td_icon.wplm_td_add_section,
+.wplm_td .wplm_td_icon.wplm_td_single_remove{
+	cursor:pointer;
+}
+
